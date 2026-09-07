@@ -15,3 +15,28 @@ Therefore, this study seeks to generate evidence that may support **the predicti
 ## Part B: Problem Statement
 
 Despite STADIOalot’s growing number of late and repeat deliveries, it is still unclear whether these delivery problems can be predicted before they happen. Therefore, this study aims to determine whether historical delivery and logistics data can be used to predict which orders are at higher risk of being delayed or requiring another delivery attempt, helping STADIOalot make better delivery planning decisions.
+
+
+# Data Science Project
+
+## Project Overview
+
+This repository contains the code, data, models, experiments and results for the data science project.
+
+The project is organised into separate stages of the data science workflow so that data preparation, feature engineering, modelling and evaluation remain easy to manage and reproduce.
+
+## Repository Structure
+
+```text
+.
+├── datasets/
+├── experimental-results/
+├── experimental-setup/
+├── feature-extraction/
+├── modelling/
+├── models/
+├── preprocessing/
+├── statistical-helper-and-comparisons/
+├── visualisation-scripts/
+├── LICENSE
+└── README.md
