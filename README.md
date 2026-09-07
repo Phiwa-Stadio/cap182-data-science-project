@@ -14,3 +14,4 @@ Therefore, this study seeks to generate evidence that may support **the predicti
 
 ## Part B: Problem Statement
 
+Despite STADIOalot’s growing number of late and repeat deliveries, it is still unclear whether these delivery problems can be predicted before they happen. Therefore, this study aims to determine whether historical delivery and logistics data can be used to predict which orders are at higher risk of being delayed or requiring another delivery attempt, helping STADIOalot make better delivery planning decisions.
