@@ -12,7 +12,7 @@ The project is organised into separate stages of the data science workflow so th
 .
 ├── datasets/
 │   └── README.md
-│   └── STADIOalot Data Request.pdf
+│   └── STADIOalot-data-request.pdf
 ├── experimental-results/
 │   └── README.md
 ├── experimental-setup/
