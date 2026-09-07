@@ -48,34 +48,7 @@ Despite STADIOalot’s growing number of late and repeat deliveries, it is still
 
 ## Part E: RAAIDD Log
 
-This RAAIDD log identifies the key risks, actions, assumptions, issues, decisions and dependencies that may affect the successful completion of the project.
-
-| **RAAIDD** | **Item** | **Description** |
-|---|---|---|
-| **Risk** | R1 | Missing or inconsistent delivery data may reduce model reliability. |
-| **Risk** | R2 | Data leakage may result in unrealistically high model performance. |
-| **Risk** | R3 | There may be too few late or failed deliveries to train a reliable model. |
-| **Risk** | R4 | Customer, driver or location data may require anonymisation. |
-| **Action** | A1 | Obtain the required historical delivery and logistics data. |
-| **Action** | A2 | Profile and assess data quality. |
-| **Action** | A3 | Clean the data and engineer relevant features. |
-| **Action** | A4 | Develop, evaluate and compare predictive models. |
-| **Action** | A5 | Analyse the factors associated with delivery risk. |
-| **Assumption** | AS1 | Sufficient historical delivery data will be available. |
-| **Assumption** | AS2 | Delivery outcomes and timestamps are recorded reliably. |
-| **Assumption** | AS3 | Historical delivery patterns can provide useful information for prediction. |
-| **Issue** | I1 | Missing or inconsistent values may be identified during data profiling. |
-| **Issue** | I2 | Some requested variables may not be available from the client. |
-| **Issue** | I3 | Initial models may not achieve useful predictive performance. |
-| **Decision** | D1 | Define the criteria for a late or failed delivery. |
-| **Decision** | D2 | Select the primary prediction target. |
-| **Decision** | D3 | Select the modelling and evaluation approach based on the data. |
-| **Dependency** | DP1 | Data access must be completed before data profiling can begin. |
-| **Dependency** | DP2 | Data preprocessing depends on the results of data profiling. |
-| **Dependency** | DP3 | Feature extraction depends on having sufficiently clean data. |
-| **Dependency** | DP4 | Model development depends on the completed feature dataset. |
-| **Dependency** | DP5 | Final recommendations depend on model evaluation and analysis. |
-
+This RAAIDD log identifies the key risks, actions, assumptions, issues, decisions and dependencies that may affect the successful completion of this project.
 
 # RAAIDD Log
 
