@@ -30,13 +30,16 @@ The project is organised into separate stages of the data science workflow so th
 ```text
 .
 ├── datasets/
+│   └── README.md
 ├── experimental-results/
+│   └── README.md
 ├── experimental-setup/
-├── feature-extraction/
-├── modelling/
+│   └── README.md
 ├── models/
-├── preprocessing/
+│   └── README.md
 ├── statistical-helper-and-comparisons/
+│   └── README.md
 ├── visualisation-scripts/
+│   └── README.md
 ├── LICENSE
 └── README.md
