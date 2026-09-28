@@ -18,6 +18,8 @@ The project is organised into separate stages of the data science workflow so th
 ├── experimental-setup/
 │   └── README.md
 ├── models/
+│   └── logistic_regression.py
+│   └── random_forest.py
 │   └── README.md
 ├── literature-review/
 │   └── README.md
@@ -65,3 +67,13 @@ This RAAIDD log identifies the key risks, actions, assumptions, issues, decision
 | **Issues** | **Problems that transpire throughout the project's lifecycle.**<br><br>• Important variables may be missing or inconsistently recorded.<br>• Some requested data may not be available from STADIOalot.<br>• Initial models may not achieve useful predictive performance. |
 | **Decisions** | **Choices that are made throughout the project.**<br><br>• Define what constitutes a late or failed delivery.<br>• Select the primary prediction target.<br>• Determine which variables are appropriate for modelling.<br>• Select the most suitable modelling and evaluation approach based on the available data. |
 | **Dependencies** | **Relationships between actions that indicate the chronology of completion.**<br><br>Data access must be completed before data profiling can begin. Data preprocessing depends on the results of the data profiling, while feature extraction depends on having sufficiently clean data. Model development depends on the completed feature dataset, and the final recommendations depend on model evaluation and analysis. |
+
+# SS2
+## Part B:
+[Preprocessing](experimental-setup/preprocessing.MD)
+
+[Feature Engineering](experimental-setup/feature-engineering.MD)
+
+[Model 1 – Logistic Regression](models/model1.MD)
+
+[Model 2 – Random Forest](models/model2.MD)
