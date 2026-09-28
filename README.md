@@ -77,3 +77,59 @@ This RAAIDD log identifies the key risks, actions, assumptions, issues, decision
 [Model 1 – Logistic Regression](models/model1.MD)
 
 [Model 2 – Random Forest](models/model2.MD)
+
+## Part C:
+
+### Model Performance
+
+- [Model 1 Performance](experimental-results/model1-performance.MD)
+- [Model 2 Performance](experimental-results/model2-performance.MD)
+- [Model Comparison](experimental-results/comparison.MD)
+
+## Model performance
+
+The two models were applied to the Olist public dataset using the same chronological 80/20 train-test split. The test set contained **19,294 records**.
+
+### Model 1 – Logistic Regression
+
+Model 1 achieved an accuracy of **56.41%**, precision of **9.11%**, recall of **86.06%**, F1-score of **16.37%**, and ROC-AUC of **0.7020**.
+
+The model therefore identified a high proportion of the actual late deliveries, but its low precision means that many orders predicted as late were not actually late.
+
+See [Model1Performance.MD](experimental-results/model1-performance.MD).
+
+### Model 2 – Random Forest
+
+Model 2 achieved an accuracy of **82.18%**, precision of **6.54%**, recall of **17.83%**, F1-score of **9.54%**, and ROC-AUC of **0.5571**.
+
+The higher accuracy is accompanied by much lower recall, meaning that a substantial number of late deliveries were not identified.
+
+See [Model2Performance.MD](experimental-results/model2-performance.MD).
+
+### Comparison
+
+| Metric | Logistic Regression | Random Forest |
+|---|---:|---:|
+| Accuracy | 0.5641 | 0.8218 |
+| Precision | 0.0911 | 0.0654 |
+| Recall | 0.8606 | 0.1783 |
+| F1-score | 0.1637 | 0.0954 |
+| ROC-AUC | 0.7020 | 0.5571 |
+
+The models show a clear trade-off. Logistic Regression has higher recall, precision, F1-score and ROC-AUC, while Random Forest has higher overall accuracy.
+
+Because the project is concerned with identifying orders at risk of late delivery, recall, F1-score and ROC-AUC should be considered alongside accuracy. The results also suggest that further work is needed to address the class imbalance and improve the predictive performance.
+
+See [Comparison.MD](experimental-results/comparison.MD).
+
+### Statistical comparison
+
+McNemar's test is included in `experimental-results/comparison.py` to compare the paired predictions made by the two models on the same test orders. This provides a statistical check of whether the models differ in their classification decisions.
+
+### Run performance calculations
+
+```bash
+python3 experimental-results/model1_performance.py
+python3 experimental-results/model2_performance.py
+python3 experimental-results/comparison.py
+```
