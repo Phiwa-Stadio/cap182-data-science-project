@@ -19,6 +19,11 @@ The project is organised into separate stages of the data science workflow so th
 │   └── README.md
 ├── models/
 │   └── README.md
+├── literature-review/
+│   └── README.md
+│   └── literature-review/literature-review-and-dataset.pdf
+├── statistical-helper-and-comparison-scripts/
+│   └── README.md
 ├── statistical-helper-and-comparisons/
 │   └── README.md
 ├── visualisation-scripts/
