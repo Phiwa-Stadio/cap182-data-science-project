@@ -1,6 +1,6 @@
 # Part B – Feature Engineering
 
-**Script:** `experimental-setup/feature_engineering.py`
+**Script:** `experimental-setup/feature-engineering.py`
 
 ## Purpose
 Create variables that could reasonably be available before the delivery outcome and may help predict late delivery.
@@ -32,7 +32,7 @@ The actual delivery date is used only to create this target and is then removed 
 ## Run
 
 ```bash
-python experimental-setup/feature_engineering.py
+python experimental-setup/feature-engineering.py
 ```
 
 ## Output
