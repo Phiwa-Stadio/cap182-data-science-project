@@ -2,7 +2,7 @@
 
 ## Related script
 
-`experimental-results/comparison.py`
+`statistical-helper-and-comparison-scripts/comparison.py`
 
 The comparison script reads the saved predictions and metrics for both models and produces a common comparison table. It also performs a paired comparison of the two classifiers using McNemar's test when both prediction files are available.
 
@@ -57,7 +57,7 @@ python models/random-forest.py
 Then run:
 
 ```bash
-python experimental-results/comparison.py
+python statistical-helper-and-comparison-scripts/comparison.py
 ```
 
 The script expects:

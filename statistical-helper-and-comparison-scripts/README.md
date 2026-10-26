@@ -1,1 +1,0 @@
-Statistical Helper and Comparison Scripts README
